@@ -2,10 +2,10 @@ const mongoose = require("mongoose");
 
 const envioSchema = new mongoose.Schema(
   {
-    pedidoId: { type: String, require: true, unique: true, trim: true },
-    remitetente: { type: String, require: true, trim: true },
-    destinatario: { type: String, require: true, trim: true },
-    direccionEntrega: { type: String, require: true, trim: true },
+    pedidoId: { type: String, required: true, unique: true, trim: true },
+    remitente: { type: String, required: true, trim: true },
+    destinatario: { type: String, required: true, trim: true },
+    direccionEntrega: { type: String, required: true, trim: true },
     estado: {
       type: String,
       enum: ["pendiente", "en tránsito", "entregado"],

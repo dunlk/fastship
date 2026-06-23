@@ -11,7 +11,7 @@ conectarDB();
 app.use(cors());
 app.use(express.json());
 
-app.use("/api/envios", envioRoutes);
+app.use("/api", envioRoutes);
 
 app.get("/", (req, res) => {
   res.send("Hola mundo desde backend");
