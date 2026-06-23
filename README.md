@@ -36,8 +36,8 @@ Antes de ejecutar el proyecto es necesario tener instalado:
 ### 1. Clonar el repositorio
 
 ```bash
-git clone https://github.com/usuario/fastship-api.git
-cd fastship-api
+git clone https://github.com/dunlk/fastship.git
+cd fastship
 ```
 
 ### 2. Instalar dependencias
